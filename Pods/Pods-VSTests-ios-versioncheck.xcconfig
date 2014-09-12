@@ -1,0 +1,1 @@
+PODS_VSTESTS_IOS_VERSIONCHECK_OTHER_LDFLAGS = -framework CoreFoundation -framework UIKit
