@@ -6,16 +6,16 @@
 //  Copyright (c) 2014 James Campbell. All rights reserved.
 //
 
-#import "TFElapsedSpeedTest.h"
+#import "TFElapsedSpeedTestCase.h"
 
-@interface TFElapsedSpeedTest ()
+@interface TFElapsedSpeedTestCase ()
 
 @property (nonatomic, strong) TFTestResult *timeResultSource;
 @property (nonatomic, assign) clock_t startTime;
 
 @end
 
-@implementation TFElapsedSpeedTest
+@implementation TFElapsedSpeedTestCase
 
 - (instancetype)init
 {

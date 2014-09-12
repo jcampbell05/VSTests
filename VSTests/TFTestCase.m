@@ -8,13 +8,13 @@
 
 #import <objc/runtime.h>
 
-#import "TFTest.h"
+#import "TFTestCase.h"
 
-@interface TFTest ()
+@interface TFTestCase ()
 
 @end
 
-@implementation TFTest
+@implementation TFTestCase
 
 @synthesize progress = _progress;
 
@@ -41,6 +41,8 @@
 - (TFTestResult *)runWithNIterations:(NSInteger)iterations;
 {
     [self.result clear];
+    
+    CGFloat actualIterations = MIN(iterations, self.maximumIterations);
     self.progress.completedUnitCount = 0.0f;
     
     NSArray *testMethods = [self testMethods];
@@ -52,19 +54,34 @@
         testContext.subjectName = [methodName stringByReplacingOccurrencesOfString:@"test" withString:@""];
         SEL selector = NSSelectorFromString(methodName);
 
-        for (int i = 1; i <= iterations; i ++)
+        for (int v = 0; v < self.numberOfVariations; v++)
         {
-            testContext.iteration = i;
+            testContext.variation = v;
             
-            [self setUp: testContext];
-            [self performSelector:selector];
-            [self tearDown: testContext];
-            
-            self.progress.completedUnitCount ++;
+            for (int i = 1; i <= actualIterations; i ++)
+            {
+                testContext.iteration = i;
+                
+                [self setUp: testContext];
+                [self performSelector:selector];
+                [self tearDown: testContext];
+                
+                self.progress.completedUnitCount ++;
+            }
         }
     }];
     
     return self.result;
+}
+
+- (NSInteger)maximumIterations
+{
+    return CGFLOAT_MAX;
+}
+
+- (NSInteger)numberOfVariations
+{
+    return 1;
 }
 
 - (void)setUp:(TFTestContext *)context
@@ -74,7 +91,7 @@
 
 - (void)tearDown:(TFTestContext *)context
 {
-    
+    self.result.resultReady = YES;
 }
 
 - (NSArray *)testMethods

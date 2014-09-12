@@ -10,7 +10,7 @@
 #import "TFTestContext.h"
 #import "TFTestResult.h"
 
-@interface TFTest : NSObject
+@interface TFTestCase : NSObject
 
 @property (nonatomic, strong, readonly) NSString *title;
 @property (nonatomic, strong, readonly) NSProgress *progress;
@@ -18,7 +18,8 @@
 
 + (instancetype)test;
 
-
+- (NSInteger)maximumIterations;
+- (NSInteger)numberOfVariations;
 - (void)setUp:(TFTestContext *)context;
 - (void)tearDown:(TFTestContext *)context;
 

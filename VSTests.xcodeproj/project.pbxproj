@@ -8,9 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		1AB7B14B19C2D31F004F958D /* TFTestContext.m in Sources */ = {isa = PBXBuildFile; fileRef = 1AB7B14A19C2D31F004F958D /* TFTestContext.m */; };
-		1AB7B14D19C2DAED004F958D /* JPEG.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 1AB7B14C19C2DAED004F958D /* JPEG.jpg */; };
-		1AB7B14F19C2E1AD004F958D /* PNG.png in Resources */ = {isa = PBXBuildFile; fileRef = 1AB7B14E19C2E1AD004F958D /* PNG.png */; };
-		1AE692C819C2CEB600377477 /* TFImageConversionSpeedTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 1AE692C719C2CEB600377477 /* TFImageConversionSpeedTest.m */; };
 		74397DFC19C1F69200D37966 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 74397DFB19C1F69200D37966 /* Foundation.framework */; };
 		74397DFE19C1F69200D37966 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 74397DFD19C1F69200D37966 /* CoreGraphics.framework */; };
 		74397E0019C1F69200D37966 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 74397DFF19C1F69200D37966 /* UIKit.framework */; };
@@ -25,10 +22,9 @@
 		74397E2019C1F69200D37966 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 74397DFF19C1F69200D37966 /* UIKit.framework */; };
 		74397E2819C1F69200D37966 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 74397E2619C1F69200D37966 /* InfoPlist.strings */; };
 		74397E2A19C1F69200D37966 /* VSTestsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 74397E2919C1F69200D37966 /* VSTestsTests.m */; };
-		74397E3919C1FFEF00D37966 /* TFTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 74397E3819C1FFEF00D37966 /* TFTest.m */; };
+		74397E3919C1FFEF00D37966 /* TFTestCase.m in Sources */ = {isa = PBXBuildFile; fileRef = 74397E3819C1FFEF00D37966 /* TFTestCase.m */; };
 		74397E3F19C205DE00D37966 /* TFTestResult.m in Sources */ = {isa = PBXBuildFile; fileRef = 74397E3E19C205DE00D37966 /* TFTestResult.m */; };
-		74397E4619C307A200D37966 /* TFElapsedSpeedTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 74397E4519C307A200D37966 /* TFElapsedSpeedTest.m */; };
-		74397E4919C30A6000D37966 /* TFImageConversionFileSizeTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 74397E4819C30A6000D37966 /* TFImageConversionFileSizeTest.m */; };
+		74397E4619C307A200D37966 /* TFElapsedSpeedTestCase.m in Sources */ = {isa = PBXBuildFile; fileRef = 74397E4519C307A200D37966 /* TFElapsedSpeedTestCase.m */; };
 		74397E4B19C30E1800D37966 /* Utilities.m in Sources */ = {isa = PBXBuildFile; fileRef = 74397E4A19C30E1800D37966 /* Utilities.m */; };
 		F1A76E5FC1F646E0ACA0A8A6 /* libPods-VSTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = ED7C1AD6041448D3A1775759 /* libPods-VSTests.a */; };
 /* End PBXBuildFile section */
@@ -46,10 +42,6 @@
 /* Begin PBXFileReference section */
 		1AB7B14919C2D31F004F958D /* TFTestContext.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TFTestContext.h; sourceTree = "<group>"; };
 		1AB7B14A19C2D31F004F958D /* TFTestContext.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TFTestContext.m; sourceTree = "<group>"; };
-		1AB7B14C19C2DAED004F958D /* JPEG.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = JPEG.jpg; sourceTree = "<group>"; };
-		1AB7B14E19C2E1AD004F958D /* PNG.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = PNG.png; sourceTree = "<group>"; };
-		1AE692C619C2CEB600377477 /* TFImageConversionSpeedTest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TFImageConversionSpeedTest.h; path = Tests/TFImageConversionSpeedTest.h; sourceTree = "<group>"; };
-		1AE692C719C2CEB600377477 /* TFImageConversionSpeedTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TFImageConversionSpeedTest.m; path = Tests/TFImageConversionSpeedTest.m; sourceTree = "<group>"; };
 		74397DF819C1F69200D37966 /* VSTests.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VSTests.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		74397DFB19C1F69200D37966 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		74397DFD19C1F69200D37966 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -70,14 +62,12 @@
 		74397E2519C1F69200D37966 /* VSTestsTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "VSTestsTests-Info.plist"; sourceTree = "<group>"; };
 		74397E2719C1F69200D37966 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		74397E2919C1F69200D37966 /* VSTestsTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VSTestsTests.m; sourceTree = "<group>"; };
-		74397E3719C1FFEF00D37966 /* TFTest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TFTest.h; sourceTree = "<group>"; };
-		74397E3819C1FFEF00D37966 /* TFTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TFTest.m; sourceTree = "<group>"; };
+		74397E3719C1FFEF00D37966 /* TFTestCase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TFTestCase.h; sourceTree = "<group>"; };
+		74397E3819C1FFEF00D37966 /* TFTestCase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TFTestCase.m; sourceTree = "<group>"; };
 		74397E3D19C205DE00D37966 /* TFTestResult.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TFTestResult.h; sourceTree = "<group>"; };
 		74397E3E19C205DE00D37966 /* TFTestResult.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TFTestResult.m; sourceTree = "<group>"; };
-		74397E4419C307A200D37966 /* TFElapsedSpeedTest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TFElapsedSpeedTest.h; sourceTree = "<group>"; };
-		74397E4519C307A200D37966 /* TFElapsedSpeedTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TFElapsedSpeedTest.m; sourceTree = "<group>"; };
-		74397E4719C30A6000D37966 /* TFImageConversionFileSizeTest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TFImageConversionFileSizeTest.h; path = Tests/TFImageConversionFileSizeTest.h; sourceTree = "<group>"; };
-		74397E4819C30A6000D37966 /* TFImageConversionFileSizeTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TFImageConversionFileSizeTest.m; path = Tests/TFImageConversionFileSizeTest.m; sourceTree = "<group>"; };
+		74397E4419C307A200D37966 /* TFElapsedSpeedTestCase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TFElapsedSpeedTestCase.h; sourceTree = "<group>"; };
+		74397E4519C307A200D37966 /* TFElapsedSpeedTestCase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TFElapsedSpeedTestCase.m; sourceTree = "<group>"; };
 		74397E4A19C30E1800D37966 /* Utilities.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Utilities.m; sourceTree = "<group>"; };
 		D0854E63E81747B5958CF456 /* Pods-VSTests.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VSTests.xcconfig"; path = "Pods/Pods-VSTests.xcconfig"; sourceTree = "<group>"; };
 		ED7C1AD6041448D3A1775759 /* libPods-VSTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-VSTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -111,12 +101,6 @@
 		1AE692C319C2CE6800377477 /* Tests */ = {
 			isa = PBXGroup;
 			children = (
-				1AB7B14E19C2E1AD004F958D /* PNG.png */,
-				1AB7B14C19C2DAED004F958D /* JPEG.jpg */,
-				1AE692C619C2CEB600377477 /* TFImageConversionSpeedTest.h */,
-				1AE692C719C2CEB600377477 /* TFImageConversionSpeedTest.m */,
-				74397E4719C30A6000D37966 /* TFImageConversionFileSizeTest.h */,
-				74397E4819C30A6000D37966 /* TFImageConversionFileSizeTest.m */,
 			);
 			name = Tests;
 			sourceTree = "<group>";
@@ -166,14 +150,14 @@
 				74397E1419C1F69200D37966 /* TFDetailViewController.m */,
 				74397E1619C1F69200D37966 /* Images.xcassets */,
 				74397E0219C1F69200D37966 /* Supporting Files */,
-				74397E3719C1FFEF00D37966 /* TFTest.h */,
-				74397E3819C1FFEF00D37966 /* TFTest.m */,
+				74397E3719C1FFEF00D37966 /* TFTestCase.h */,
+				74397E3819C1FFEF00D37966 /* TFTestCase.m */,
 				74397E3D19C205DE00D37966 /* TFTestResult.h */,
 				74397E3E19C205DE00D37966 /* TFTestResult.m */,
 				1AB7B14919C2D31F004F958D /* TFTestContext.h */,
 				1AB7B14A19C2D31F004F958D /* TFTestContext.m */,
-				74397E4419C307A200D37966 /* TFElapsedSpeedTest.h */,
-				74397E4519C307A200D37966 /* TFElapsedSpeedTest.m */,
+				74397E4419C307A200D37966 /* TFElapsedSpeedTestCase.h */,
+				74397E4519C307A200D37966 /* TFElapsedSpeedTestCase.m */,
 				74397E4A19C30E1800D37966 /* Utilities.m */,
 			);
 			path = VSTests;
@@ -297,8 +281,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1AB7B14D19C2DAED004F958D /* JPEG.jpg in Resources */,
-				1AB7B14F19C2E1AD004F958D /* PNG.png in Resources */,
 				74397E1719C1F69200D37966 /* Images.xcassets in Resources */,
 				74397E0619C1F69200D37966 /* InfoPlist.strings in Resources */,
 			);
@@ -354,13 +336,11 @@
 			files = (
 				74397E4B19C30E1800D37966 /* Utilities.m in Sources */,
 				74397E1219C1F69200D37966 /* TFMasterViewController.m in Sources */,
-				74397E4619C307A200D37966 /* TFElapsedSpeedTest.m in Sources */,
+				74397E4619C307A200D37966 /* TFElapsedSpeedTestCase.m in Sources */,
 				74397E3F19C205DE00D37966 /* TFTestResult.m in Sources */,
-				74397E3919C1FFEF00D37966 /* TFTest.m in Sources */,
+				74397E3919C1FFEF00D37966 /* TFTestCase.m in Sources */,
 				74397E0C19C1F69200D37966 /* TFAppDelegate.m in Sources */,
 				1AB7B14B19C2D31F004F958D /* TFTestContext.m in Sources */,
-				1AE692C819C2CEB600377477 /* TFImageConversionSpeedTest.m in Sources */,
-				74397E4919C30A6000D37966 /* TFImageConversionFileSizeTest.m in Sources */,
 				74397E0819C1F69200D37966 /* main.m in Sources */,
 				74397E1519C1F69200D37966 /* TFDetailViewController.m in Sources */,
 			);

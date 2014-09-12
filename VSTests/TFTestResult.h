@@ -16,6 +16,7 @@
 @property (nonatomic, strong) NSMutableDictionary *plots;
 @property (nonatomic, strong) NSString *xAxisLabel;
 @property (nonatomic, strong) NSString *yAxisLabel;
+@property (nonatomic, assign) BOOL resultReady;
 
 - (void)addPoint:(CGPoint)point forSubject:(NSString *)subject;
 - (void)clear;

@@ -6,8 +6,8 @@
 //  Copyright (c) 2014 James Campbell. All rights reserved.
 //
 
-#import "TFTest.h"
+#import "TFTestCase.h"
 
-@interface TFElapsedSpeedTest : TFTest
+@interface TFElapsedSpeedTestCase : TFTestCase
 
 @end
