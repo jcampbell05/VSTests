@@ -15,7 +15,7 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "74397DF719C1F69200D37966"
-               BuildableName = "VSTests.app"
+               BuildableName = "VSTests.xctest"
                BlueprintName = "VSTests"
                ReferencedContainer = "container:VSTests.xcodeproj">
             </BuildableReference>
@@ -43,7 +43,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "74397DF719C1F69200D37966"
-            BuildableName = "VSTests.app"
+            BuildableName = "VSTests.xctest"
             BlueprintName = "VSTests"
             ReferencedContainer = "container:VSTests.xcodeproj">
          </BuildableReference>
@@ -62,7 +62,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "74397DF719C1F69200D37966"
-            BuildableName = "VSTests.app"
+            BuildableName = "VSTests.xctest"
             BlueprintName = "VSTests"
             ReferencedContainer = "container:VSTests.xcodeproj">
          </BuildableReference>
@@ -80,7 +80,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "74397DF719C1F69200D37966"
-            BuildableName = "VSTests.app"
+            BuildableName = "VSTests.xctest"
             BlueprintName = "VSTests"
             ReferencedContainer = "container:VSTests.xcodeproj">
          </BuildableReference>

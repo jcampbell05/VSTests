@@ -210,11 +210,11 @@ static NSTimeInterval const kRunLoopSamplingInterval = 0.01;
     {
         OSSpinLockLock(&_expectationsLock);
         [_expectations filterUsingPredicate:[NSPredicate predicateWithFormat:@"fulfilled == NO"]];
+
+        VSFail(@"Failed due to unwaited expectations: %@.", [_expectations componentsJoinedByString:@", "]);
+        [_expectations removeAllObjects];
+        OSSpinLockUnlock(&_expectationsLock);
     }
-    VSFail(@"Failed due to unwaited expectations: %@.", [_expectations componentsJoinedByString:@", "]);
-    
-    [_expectations removeAllObjects];
-    OSSpinLockUnlock(&_expectationsLock);
 }
 
 - (NSArray *)testMethods

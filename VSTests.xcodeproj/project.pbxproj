@@ -58,7 +58,7 @@
 		742DDB261A78DFE9006F8A65 /* TFTestResult.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TFTestResult.m; sourceTree = "<group>"; };
 		742DDB271A78DFE9006F8A65 /* VSTestCase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VSTestCase.h; sourceTree = "<group>"; };
 		742DDB281A78DFE9006F8A65 /* VSTestCase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VSTestCase.m; sourceTree = "<group>"; };
-		74397DF819C1F69200D37966 /* VSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VSTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		74397DF819C1F69200D37966 /* VSTests.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VSTests.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		74397DFB19C1F69200D37966 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		74397DFD19C1F69200D37966 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
 		74397DFF19C1F69200D37966 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
@@ -149,7 +149,7 @@
 		74397DF919C1F69200D37966 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				74397DF819C1F69200D37966 /* VSTests.xctest */,
+				74397DF819C1F69200D37966 /* VSTests.app */,
 				74397E1C19C1F69200D37966 /* VSTestsTests.xctest */,
 			);
 			name = Products;
@@ -236,7 +236,7 @@
 			);
 			name = VSTests;
 			productName = VSTests;
-			productReference = 74397DF819C1F69200D37966 /* VSTests.xctest */;
+			productReference = 74397DF819C1F69200D37966 /* VSTests.app */;
 			productType = "com.apple.product-type.application";
 		};
 		74397E1B19C1F69200D37966 /* VSTestsTests */ = {
@@ -507,7 +507,7 @@
 				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
-				WRAPPER_EXTENSION = xctest;
+				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
 		};
@@ -542,7 +542,7 @@
 				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
-				WRAPPER_EXTENSION = xctest;
+				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
 		};
