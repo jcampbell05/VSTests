@@ -165,19 +165,6 @@ static NSTimeInterval const kRunLoopSamplingInterval = 0.01;
         return;
     }
     
-    void (^doneBlock)() = ^
-    {
-        [self tearDown];
-        self.progress.completedUnitCount ++;
-        
-        NSInteger newIterationsLeft = iterationsLeft - 1;
-        self.context.iteration ++;
-        
-        [self runIterations:newIterationsLeft completion:completion];
-    };
-    
-    doneBlock = [doneBlock copy];
-    
     NSString *methodName = [NSString stringWithFormat:@"test%@", self.context.subjectName];
     SEL selector = NSSelectorFromString(methodName);
     
@@ -186,10 +173,17 @@ static NSTimeInterval const kRunLoopSamplingInterval = 0.01;
     
     [invocation setSelector:selector];
     [invocation setTarget:self];
-    [invocation setArgument:&doneBlock atIndex:2];
     
     [self setUp];
     [invocation invoke];
+    [self tearDown];
+    
+    self.progress.completedUnitCount ++;
+    NSInteger newIterationsLeft = iterationsLeft - 1;
+    self.context.iteration ++;
+    
+    [self runIterations:newIterationsLeft
+             completion:completion];
 }
 
 - (NSInteger)maximumIterations
