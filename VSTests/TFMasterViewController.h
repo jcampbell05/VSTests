@@ -9,7 +9,7 @@
 #import <UIKit/UIKit.h>
 
 @class TFDetailViewController;
-@class TFTestCase;
+@class VSTestCase;
 
 @interface TFMasterViewController : UITableViewController
 

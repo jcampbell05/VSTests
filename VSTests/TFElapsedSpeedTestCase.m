@@ -7,11 +7,12 @@
 //
 
 #import "TFElapsedSpeedTestCase.h"
+#import "MMStopwatchARC.h"
 
 @interface TFElapsedSpeedTestCase ()
 
 @property (nonatomic, strong) TFTestResult *timeResultSource;
-@property (nonatomic, assign) clock_t startTime;
+@property (nonatomic, strong) MMStopwatchItemARC *stopwatch;
 
 @end
 
@@ -38,15 +39,18 @@
 {
     [super setUp:context];
     
-    self.startTime = clock();
+    self.stopwatch = [MMStopwatchItemARC itemWithName:context.subjectName];
 }
 
 - (void)tearDown:(TFTestContext *)context
 {
     [super tearDown:context];
     
-    double executionTime = (double)(clock()-self.startTime) / CLOCKS_PER_SEC;
-    [self.timeResultSource addPoint:CGPointMake(context.iteration, executionTime)
+    NSAssert(self.stopwatch, @"No stopwatch created, please check all of your tests call [super setUp: context].");
+    [self.stopwatch stop];
+    
+    NSLog(@"Completed Test: %@", self.stopwatch.description);
+    [self.timeResultSource addPoint:CGPointMake(context.iteration, self.stopwatch.runtimeMills / 1000)
                          forSubject:context.subjectName];
 }
 

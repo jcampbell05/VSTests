@@ -8,7 +8,7 @@
 
 #import "TFMasterViewController.h"
 #import "TFDetailViewController.h"
-#import "TFTestCase.h"
+#import "VSTestCase.h"
 #import "TFElapsedSpeedTestCase.h"
 #import "TFTestResult.h"
 #import "Utilities.m"
@@ -43,7 +43,7 @@
 
 - (void)loadTests
 {
-    NSArray *testSubclasses = ClassGetSubclasses([TFTestCase class]);
+    NSArray *testSubclasses = ClassGetSubclasses([VSTestCase class]);
     NSArray *concreteSubclasses = @[[TFElapsedSpeedTestCase class]];
     
     NSPredicate *predicate = [NSPredicate predicateWithBlock:^BOOL(id evaluatedObject, NSDictionary *bindings)
@@ -81,7 +81,7 @@
 
     if (self.tests.count > 0)
     {
-        TFTestCase *object = self.tests[indexPath.row];
+        VSTestCase *object = self.tests[indexPath.row];
         cell.textLabel.text = object.title;
         cell.selectionStyle = UITableViewCellSelectionStyleGray;
     }
@@ -96,14 +96,15 @@
 
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath
 {
-    TFTestCase *test = self.tests[indexPath.row];
+    VSTestCase *test = self.tests[indexPath.row];
     
     if (!test.result.resultReady)
     {
-        [test runWithNIterations:10];
+        [test runWithNIterations:ITERATIONS completion:^
+        {
+            self.detailViewController.testResult = test.result;
+        }];
     }
-    
-    self.detailViewController.testResult = test.result;
 }
 
 @end

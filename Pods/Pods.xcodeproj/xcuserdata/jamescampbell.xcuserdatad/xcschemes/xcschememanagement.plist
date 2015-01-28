@@ -4,17 +4,37 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
-		<key>Pods-VSTests-ios-linechart.xcscheme</key>
+		<key>Pods-VSTests-AFNetworking.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>
 		</dict>
-		<key>Pods-VSTests-ios-versioncheck.xcscheme</key>
+		<key>Pods-VSTests-APIServices.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>
 		</dict>
-		<key>Pods-VSTests-uikit-utils.xcscheme</key>
+		<key>Pods-VSTests-Bolts.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>Pods-VSTests-CoreAPIServices.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>Pods-VSTests-CoreDataServices.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>Pods-VSTests-CorePlot.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>Pods-VSTests-CoreServices.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>
@@ -27,47 +47,42 @@
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
-		<key>070EA9EFE15E483CA95A08DA</key>
+		<key>0863D7DAC58A4274B73CDE76</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>1C465E1349FB48C182C0865B</key>
+		<key>7F9C2655F6EB4265B0FA87BB</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>2CCFD898B8574BCAA5F9FC38</key>
+		<key>83141DCC19934687A71CA23B</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>5D86B591AF1D4B33B35CEBB4</key>
+		<key>8480E28BAE4C43368F3A9923</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>70B1B2F0150943149D31A9AE</key>
+		<key>8CE63DC4458E4E12814C6AA7</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>74335EA9D34041B0BC63D725</key>
+		<key>9D8AB5E717FD4B969B1F1178</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>AFEAAEE4F8DB4F129B1796A5</key>
+		<key>D2054E21C0A846D38CC05DC2</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>F335E180035A4EC88FBB886A</key>
-		<dict>
-			<key>primary</key>
-			<true/>
-		</dict>
-		<key>FF8EAF9822614C328C869C23</key>
+		<key>E54DFEAC238C4CBABCE32776</key>
 		<dict>
 			<key>primary</key>
 			<true/>

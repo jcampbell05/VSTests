@@ -10,7 +10,7 @@
 
 @interface TFTestContext : NSObject
 
-@property (nonatomic, assign) NSString *subjectName;
+@property (nonatomic, strong) NSString *subjectName;
 @property (nonatomic, assign) NSInteger iteration;
 @property (nonatomic, assign) NSInteger variation;
 

@@ -11,6 +11,12 @@
 #endif
 
 #ifdef __OBJC__
-    #import <UIKit/UIKit.h>
-    #import <Foundation/Foundation.h>
+
+#define DLog(fmt, ...) NSLog((@"%s [Line %d] " fmt), __PRETTY_FUNCTION__, __LINE__, ##__VA_ARGS__)
+
+#define ITERATIONS 25
+
+#import <UIKit/UIKit.h>
+#import <Foundation/Foundation.h>
+
 #endif

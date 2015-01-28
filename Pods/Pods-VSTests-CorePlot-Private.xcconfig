@@ -1,5 +1,5 @@
 #include "Pods-VSTests-CorePlot.xcconfig"
 GCC_PREPROCESSOR_DEFINITIONS = COCOAPODS=1
-HEADER_SEARCH_PATHS = "${PODS_ROOT}/BuildHeaders" "${PODS_ROOT}/BuildHeaders/CorePlot" "${PODS_ROOT}/Headers" "${PODS_ROOT}/Headers/CorePlot" "${PODS_ROOT}/Headers/ios-linechart" "${PODS_ROOT}/Headers/ios-versioncheck" "${PODS_ROOT}/Headers/uikit-utils"
+HEADER_SEARCH_PATHS = "${PODS_ROOT}/BuildHeaders" "${PODS_ROOT}/BuildHeaders/CorePlot" "${PODS_ROOT}/Headers" "${PODS_ROOT}/Headers/AFNetworking" "${PODS_ROOT}/Headers/APIServices" "${PODS_ROOT}/Headers/Bolts" "${PODS_ROOT}/Headers/CoreAPIServices" "${PODS_ROOT}/Headers/CoreDataServices" "${PODS_ROOT}/Headers/CorePlot" "${PODS_ROOT}/Headers/CoreServices"
 OTHER_LDFLAGS = -ObjC ${PODS_VSTESTS_COREPLOT_OTHER_LDFLAGS}
 PODS_ROOT = ${SRCROOT}

@@ -1,0 +1,1 @@
+../../CoreServices/CoreServices/Subclasses/DataDetector/UFCHashtagDataDetector.h

@@ -17,15 +17,16 @@
 		74397E1219C1F69200D37966 /* TFMasterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 74397E1119C1F69200D37966 /* TFMasterViewController.m */; };
 		74397E1519C1F69200D37966 /* TFDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 74397E1419C1F69200D37966 /* TFDetailViewController.m */; };
 		74397E1719C1F69200D37966 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 74397E1619C1F69200D37966 /* Images.xcassets */; };
-		74397E1E19C1F69200D37966 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 74397E1D19C1F69200D37966 /* XCTest.framework */; };
 		74397E1F19C1F69200D37966 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 74397DFB19C1F69200D37966 /* Foundation.framework */; };
 		74397E2019C1F69200D37966 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 74397DFF19C1F69200D37966 /* UIKit.framework */; };
 		74397E2819C1F69200D37966 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 74397E2619C1F69200D37966 /* InfoPlist.strings */; };
 		74397E2A19C1F69200D37966 /* VSTestsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 74397E2919C1F69200D37966 /* VSTestsTests.m */; };
-		74397E3919C1FFEF00D37966 /* TFTestCase.m in Sources */ = {isa = PBXBuildFile; fileRef = 74397E3819C1FFEF00D37966 /* TFTestCase.m */; };
+		74397E3919C1FFEF00D37966 /* VSTestCase.m in Sources */ = {isa = PBXBuildFile; fileRef = 74397E3819C1FFEF00D37966 /* VSTestCase.m */; };
 		74397E3F19C205DE00D37966 /* TFTestResult.m in Sources */ = {isa = PBXBuildFile; fileRef = 74397E3E19C205DE00D37966 /* TFTestResult.m */; };
-		74397E4619C307A200D37966 /* TFElapsedSpeedTestCase.m in Sources */ = {isa = PBXBuildFile; fileRef = 74397E4519C307A200D37966 /* TFElapsedSpeedTestCase.m */; };
 		74397E4B19C30E1800D37966 /* Utilities.m in Sources */ = {isa = PBXBuildFile; fileRef = 74397E4A19C30E1800D37966 /* Utilities.m */; };
+		7447E7F31A0A802100BD264D /* TFImageDownloadTestCase.m in Sources */ = {isa = PBXBuildFile; fileRef = 7447E7F21A0A802100BD264D /* TFImageDownloadTestCase.m */; };
+		7447E7F61A0A965C00BD264D /* TFElapsedSpeedTestCase.m in Sources */ = {isa = PBXBuildFile; fileRef = 7447E7F51A0A965C00BD264D /* TFElapsedSpeedTestCase.m */; };
+		74D06E761A0BD79300529F19 /* MMStopwatchARC.m in Sources */ = {isa = PBXBuildFile; fileRef = 74D06E751A0BD79300529F19 /* MMStopwatchARC.m */; };
 		F1A76E5FC1F646E0ACA0A8A6 /* libPods-VSTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = ED7C1AD6041448D3A1775759 /* libPods-VSTests.a */; };
 /* End PBXBuildFile section */
 
@@ -42,7 +43,8 @@
 /* Begin PBXFileReference section */
 		1AB7B14919C2D31F004F958D /* TFTestContext.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TFTestContext.h; sourceTree = "<group>"; };
 		1AB7B14A19C2D31F004F958D /* TFTestContext.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TFTestContext.m; sourceTree = "<group>"; };
-		74397DF819C1F69200D37966 /* VSTests.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VSTests.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		742DDB161A78DBF0006F8A65 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		74397DF819C1F69200D37966 /* VSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VSTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		74397DFB19C1F69200D37966 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		74397DFD19C1F69200D37966 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
 		74397DFF19C1F69200D37966 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
@@ -62,13 +64,17 @@
 		74397E2519C1F69200D37966 /* VSTestsTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "VSTestsTests-Info.plist"; sourceTree = "<group>"; };
 		74397E2719C1F69200D37966 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		74397E2919C1F69200D37966 /* VSTestsTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VSTestsTests.m; sourceTree = "<group>"; };
-		74397E3719C1FFEF00D37966 /* TFTestCase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TFTestCase.h; sourceTree = "<group>"; };
-		74397E3819C1FFEF00D37966 /* TFTestCase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TFTestCase.m; sourceTree = "<group>"; };
+		74397E3719C1FFEF00D37966 /* VSTestCase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VSTestCase.h; sourceTree = "<group>"; };
+		74397E3819C1FFEF00D37966 /* VSTestCase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VSTestCase.m; sourceTree = "<group>"; };
 		74397E3D19C205DE00D37966 /* TFTestResult.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TFTestResult.h; sourceTree = "<group>"; };
 		74397E3E19C205DE00D37966 /* TFTestResult.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TFTestResult.m; sourceTree = "<group>"; };
-		74397E4419C307A200D37966 /* TFElapsedSpeedTestCase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TFElapsedSpeedTestCase.h; sourceTree = "<group>"; };
-		74397E4519C307A200D37966 /* TFElapsedSpeedTestCase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TFElapsedSpeedTestCase.m; sourceTree = "<group>"; };
 		74397E4A19C30E1800D37966 /* Utilities.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Utilities.m; sourceTree = "<group>"; };
+		7447E7F11A0A802100BD264D /* TFImageBlurTestCase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TFImageBlurTestCase.h; path = Tests/TFImageBlurTestCase.h; sourceTree = "<group>"; };
+		7447E7F21A0A802100BD264D /* TFImageDownloadTestCase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TFImageDownloadTestCase.m; path = Tests/TFImageDownloadTestCase.m; sourceTree = "<group>"; };
+		7447E7F41A0A965C00BD264D /* TFElapsedSpeedTestCase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TFElapsedSpeedTestCase.h; sourceTree = "<group>"; };
+		7447E7F51A0A965C00BD264D /* TFElapsedSpeedTestCase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TFElapsedSpeedTestCase.m; sourceTree = "<group>"; };
+		74D06E741A0BD79300529F19 /* MMStopwatchARC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MMStopwatchARC.h; sourceTree = "<group>"; };
+		74D06E751A0BD79300529F19 /* MMStopwatchARC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MMStopwatchARC.m; sourceTree = "<group>"; };
 		D0854E63E81747B5958CF456 /* Pods-VSTests.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VSTests.xcconfig"; path = "Pods/Pods-VSTests.xcconfig"; sourceTree = "<group>"; };
 		ED7C1AD6041448D3A1775759 /* libPods-VSTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-VSTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -89,7 +95,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				74397E1E19C1F69200D37966 /* XCTest.framework in Frameworks */,
 				74397E2019C1F69200D37966 /* UIKit.framework in Frameworks */,
 				74397E1F19C1F69200D37966 /* Foundation.framework in Frameworks */,
 			);
@@ -101,6 +106,8 @@
 		1AE692C319C2CE6800377477 /* Tests */ = {
 			isa = PBXGroup;
 			children = (
+				7447E7F11A0A802100BD264D /* TFImageBlurTestCase.h */,
+				7447E7F21A0A802100BD264D /* TFImageDownloadTestCase.m */,
 			);
 			name = Tests;
 			sourceTree = "<group>";
@@ -119,7 +126,7 @@
 		74397DF919C1F69200D37966 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				74397DF819C1F69200D37966 /* VSTests.app */,
+				74397DF819C1F69200D37966 /* VSTests.xctest */,
 				74397E1C19C1F69200D37966 /* VSTestsTests.xctest */,
 			);
 			name = Products;
@@ -128,6 +135,7 @@
 		74397DFA19C1F69200D37966 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				742DDB161A78DBF0006F8A65 /* SenTestingKit.framework */,
 				74397DFB19C1F69200D37966 /* Foundation.framework */,
 				74397DFD19C1F69200D37966 /* CoreGraphics.framework */,
 				74397DFF19C1F69200D37966 /* UIKit.framework */,
@@ -140,24 +148,26 @@
 		74397E0119C1F69200D37966 /* VSTests */ = {
 			isa = PBXGroup;
 			children = (
+				7447E7F41A0A965C00BD264D /* TFElapsedSpeedTestCase.h */,
+				7447E7F51A0A965C00BD264D /* TFElapsedSpeedTestCase.m */,
 				1AE692C319C2CE6800377477 /* Tests */,
 				74397E3319C1F96200D37966 /* Cells */,
 				74397E0A19C1F69200D37966 /* TFAppDelegate.h */,
 				74397E0B19C1F69200D37966 /* TFAppDelegate.m */,
 				74397E1019C1F69200D37966 /* TFMasterViewController.h */,
 				74397E1119C1F69200D37966 /* TFMasterViewController.m */,
+				74D06E741A0BD79300529F19 /* MMStopwatchARC.h */,
+				74D06E751A0BD79300529F19 /* MMStopwatchARC.m */,
 				74397E1319C1F69200D37966 /* TFDetailViewController.h */,
 				74397E1419C1F69200D37966 /* TFDetailViewController.m */,
 				74397E1619C1F69200D37966 /* Images.xcassets */,
 				74397E0219C1F69200D37966 /* Supporting Files */,
-				74397E3719C1FFEF00D37966 /* TFTestCase.h */,
-				74397E3819C1FFEF00D37966 /* TFTestCase.m */,
+				74397E3719C1FFEF00D37966 /* VSTestCase.h */,
+				74397E3819C1FFEF00D37966 /* VSTestCase.m */,
 				74397E3D19C205DE00D37966 /* TFTestResult.h */,
 				74397E3E19C205DE00D37966 /* TFTestResult.m */,
 				1AB7B14919C2D31F004F958D /* TFTestContext.h */,
 				1AB7B14A19C2D31F004F958D /* TFTestContext.m */,
-				74397E4419C307A200D37966 /* TFElapsedSpeedTestCase.h */,
-				74397E4519C307A200D37966 /* TFElapsedSpeedTestCase.m */,
 				74397E4A19C30E1800D37966 /* Utilities.m */,
 			);
 			path = VSTests;
@@ -218,7 +228,7 @@
 			);
 			name = VSTests;
 			productName = VSTests;
-			productReference = 74397DF819C1F69200D37966 /* VSTests.app */;
+			productReference = 74397DF819C1F69200D37966 /* VSTests.xctest */;
 			productType = "com.apple.product-type.application";
 		};
 		74397E1B19C1F69200D37966 /* VSTestsTests */ = {
@@ -334,11 +344,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7447E7F61A0A965C00BD264D /* TFElapsedSpeedTestCase.m in Sources */,
 				74397E4B19C30E1800D37966 /* Utilities.m in Sources */,
+				74D06E761A0BD79300529F19 /* MMStopwatchARC.m in Sources */,
 				74397E1219C1F69200D37966 /* TFMasterViewController.m in Sources */,
-				74397E4619C307A200D37966 /* TFElapsedSpeedTestCase.m in Sources */,
 				74397E3F19C205DE00D37966 /* TFTestResult.m in Sources */,
-				74397E3919C1FFEF00D37966 /* TFTestCase.m in Sources */,
+				74397E3919C1FFEF00D37966 /* VSTestCase.m in Sources */,
+				7447E7F31A0A802100BD264D /* TFImageDownloadTestCase.m in Sources */,
 				74397E0C19C1F69200D37966 /* TFAppDelegate.m in Sources */,
 				1AB7B14B19C2D31F004F958D /* TFTestContext.m in Sources */,
 				74397E0819C1F69200D37966 /* main.m in Sources */,
@@ -462,13 +474,35 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_IDENTITY = "";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "VSTests/VSTests-Prefix.pch";
 				INFOPLIST_FILE = "VSTests/VSTests-Info.plist";
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"-framework",
+					CoreData,
+					"-framework",
+					CoreGraphics,
+					"-framework",
+					MobileCoreServices,
+					"-framework",
+					QuartzCore,
+					"-framework",
+					Security,
+					"-framework",
+					SystemConfiguration,
+					"-framework",
+					XCTest,
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "272356C8-AA12-40A5-B675-B396B7265025";
-				WRAPPER_EXTENSION = app;
+				PROVISIONING_PROFILE = "";
+				WRAPPER_EXTENSION = xctest;
 			};
 			name = Debug;
 		};
@@ -478,13 +512,35 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_IDENTITY = "";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "VSTests/VSTests-Prefix.pch";
 				INFOPLIST_FILE = "VSTests/VSTests-Info.plist";
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"-framework",
+					CoreData,
+					"-framework",
+					CoreGraphics,
+					"-framework",
+					MobileCoreServices,
+					"-framework",
+					QuartzCore,
+					"-framework",
+					Security,
+					"-framework",
+					SystemConfiguration,
+					"-framework",
+					XCTest,
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "19a397c8-f9ed-4126-a6c2-a5ba6759d1f3";
-				WRAPPER_EXTENSION = app;
+				PROVISIONING_PROFILE = "";
+				WRAPPER_EXTENSION = xctest;
 			};
 			name = Release;
 		};
