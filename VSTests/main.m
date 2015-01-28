@@ -8,11 +8,11 @@
 
 #import <UIKit/UIKit.h>
 
-#import "TFAppDelegate.h"
+#import "VSAppDelegate.h"
 
 int main(int argc, char * argv[])
 {
     @autoreleasepool {
-        return UIApplicationMain(argc, argv, nil, NSStringFromClass([TFAppDelegate class]));
+        return UIApplicationMain(argc, argv, nil, NSStringFromClass([VSAppDelegate class]));
     }
 }

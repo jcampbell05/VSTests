@@ -7,13 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		742DDB2B1A78DFE9006F8A65 /* MMStopwatchARC.m in Sources */ = {isa = PBXBuildFile; fileRef = 742DDB1A1A78DFE9006F8A65 /* MMStopwatchARC.m */; };
-		742DDB2C1A78DFE9006F8A65 /* TFAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 742DDB1C1A78DFE9006F8A65 /* TFAppDelegate.m */; };
-		742DDB2D1A78DFE9006F8A65 /* TFDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 742DDB1E1A78DFE9006F8A65 /* TFDetailViewController.m */; };
-		742DDB2E1A78DFE9006F8A65 /* TFElapsedSpeedTestCase.m in Sources */ = {isa = PBXBuildFile; fileRef = 742DDB201A78DFE9006F8A65 /* TFElapsedSpeedTestCase.m */; };
-		742DDB2F1A78DFE9006F8A65 /* TFMasterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 742DDB221A78DFE9006F8A65 /* TFMasterViewController.m */; };
+		742DDB2C1A78DFE9006F8A65 /* VSAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 742DDB1C1A78DFE9006F8A65 /* VSAppDelegate.m */; };
+		742DDB2D1A78DFE9006F8A65 /* VSDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 742DDB1E1A78DFE9006F8A65 /* VSDetailViewController.m */; };
+		742DDB2E1A78DFE9006F8A65 /* VSElapsedSpeedTestCase.m in Sources */ = {isa = PBXBuildFile; fileRef = 742DDB201A78DFE9006F8A65 /* VSElapsedSpeedTestCase.m */; };
+		742DDB2F1A78DFE9006F8A65 /* VSMasterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 742DDB221A78DFE9006F8A65 /* VSMasterViewController.m */; };
 		742DDB301A78DFE9006F8A65 /* VSTestContext.m in Sources */ = {isa = PBXBuildFile; fileRef = 742DDB241A78DFE9006F8A65 /* VSTestContext.m */; };
-		742DDB311A78DFE9006F8A65 /* TFTestResult.m in Sources */ = {isa = PBXBuildFile; fileRef = 742DDB261A78DFE9006F8A65 /* TFTestResult.m */; };
+		742DDB311A78DFE9006F8A65 /* VSTestResult.m in Sources */ = {isa = PBXBuildFile; fileRef = 742DDB261A78DFE9006F8A65 /* VSTestResult.m */; };
 		742DDB321A78DFE9006F8A65 /* VSTestCase.m in Sources */ = {isa = PBXBuildFile; fileRef = 742DDB281A78DFE9006F8A65 /* VSTestCase.m */; };
 		74397DFC19C1F69200D37966 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 74397DFB19C1F69200D37966 /* Foundation.framework */; };
 		74397DFE19C1F69200D37966 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 74397DFD19C1F69200D37966 /* CoreGraphics.framework */; };
@@ -27,6 +26,7 @@
 		74397E2A19C1F69200D37966 /* VSTestsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 74397E2919C1F69200D37966 /* VSTestsTests.m */; };
 		74397E4B19C30E1800D37966 /* Utilities.h in Sources */ = {isa = PBXBuildFile; fileRef = 74397E4A19C30E1800D37966 /* Utilities.h */; };
 		7447E7F31A0A802100BD264D /* TFImageDownloadTestCase.m in Sources */ = {isa = PBXBuildFile; fileRef = 7447E7F21A0A802100BD264D /* TFImageDownloadTestCase.m */; };
+		747E516E1A78EAA7000BD6CB /* MMStopwatchARC.m in Sources */ = {isa = PBXBuildFile; fileRef = 747E516D1A78EAA7000BD6CB /* MMStopwatchARC.m */; };
 		F1A76E5FC1F646E0ACA0A8A6 /* libPods-VSTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = ED7C1AD6041448D3A1775759 /* libPods-VSTests.a */; };
 /* End PBXBuildFile section */
 
@@ -42,20 +42,18 @@
 
 /* Begin PBXFileReference section */
 		742DDB161A78DBF0006F8A65 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
-		742DDB191A78DFE9006F8A65 /* MMStopwatchARC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MMStopwatchARC.h; sourceTree = "<group>"; };
-		742DDB1A1A78DFE9006F8A65 /* MMStopwatchARC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MMStopwatchARC.m; sourceTree = "<group>"; };
-		742DDB1B1A78DFE9006F8A65 /* TFAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TFAppDelegate.h; sourceTree = "<group>"; };
-		742DDB1C1A78DFE9006F8A65 /* TFAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TFAppDelegate.m; sourceTree = "<group>"; };
-		742DDB1D1A78DFE9006F8A65 /* TFDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TFDetailViewController.h; sourceTree = "<group>"; };
-		742DDB1E1A78DFE9006F8A65 /* TFDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TFDetailViewController.m; sourceTree = "<group>"; };
-		742DDB1F1A78DFE9006F8A65 /* TFElapsedSpeedTestCase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TFElapsedSpeedTestCase.h; sourceTree = "<group>"; };
-		742DDB201A78DFE9006F8A65 /* TFElapsedSpeedTestCase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TFElapsedSpeedTestCase.m; sourceTree = "<group>"; };
-		742DDB211A78DFE9006F8A65 /* TFMasterViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TFMasterViewController.h; sourceTree = "<group>"; };
-		742DDB221A78DFE9006F8A65 /* TFMasterViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TFMasterViewController.m; sourceTree = "<group>"; };
+		742DDB1B1A78DFE9006F8A65 /* VSAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VSAppDelegate.h; sourceTree = "<group>"; };
+		742DDB1C1A78DFE9006F8A65 /* VSAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VSAppDelegate.m; sourceTree = "<group>"; };
+		742DDB1D1A78DFE9006F8A65 /* VSDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VSDetailViewController.h; sourceTree = "<group>"; };
+		742DDB1E1A78DFE9006F8A65 /* VSDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VSDetailViewController.m; sourceTree = "<group>"; };
+		742DDB1F1A78DFE9006F8A65 /* VSElapsedSpeedTestCase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VSElapsedSpeedTestCase.h; sourceTree = "<group>"; };
+		742DDB201A78DFE9006F8A65 /* VSElapsedSpeedTestCase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VSElapsedSpeedTestCase.m; sourceTree = "<group>"; };
+		742DDB211A78DFE9006F8A65 /* VSMasterViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VSMasterViewController.h; sourceTree = "<group>"; };
+		742DDB221A78DFE9006F8A65 /* VSMasterViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VSMasterViewController.m; sourceTree = "<group>"; };
 		742DDB231A78DFE9006F8A65 /* VSTestContext.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VSTestContext.h; sourceTree = "<group>"; };
 		742DDB241A78DFE9006F8A65 /* VSTestContext.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VSTestContext.m; sourceTree = "<group>"; };
-		742DDB251A78DFE9006F8A65 /* TFTestResult.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TFTestResult.h; sourceTree = "<group>"; };
-		742DDB261A78DFE9006F8A65 /* TFTestResult.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TFTestResult.m; sourceTree = "<group>"; };
+		742DDB251A78DFE9006F8A65 /* VSTestResult.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VSTestResult.h; sourceTree = "<group>"; };
+		742DDB261A78DFE9006F8A65 /* VSTestResult.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VSTestResult.m; sourceTree = "<group>"; };
 		742DDB271A78DFE9006F8A65 /* VSTestCase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VSTestCase.h; sourceTree = "<group>"; };
 		742DDB281A78DFE9006F8A65 /* VSTestCase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VSTestCase.m; sourceTree = "<group>"; };
 		74397DF819C1F69200D37966 /* VSTests.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VSTests.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -75,6 +73,8 @@
 		74397E4A19C30E1800D37966 /* Utilities.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Utilities.h; sourceTree = "<group>"; };
 		7447E7F11A0A802100BD264D /* TFImageBlurTestCase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TFImageBlurTestCase.h; path = Tests/TFImageBlurTestCase.h; sourceTree = "<group>"; };
 		7447E7F21A0A802100BD264D /* TFImageDownloadTestCase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TFImageDownloadTestCase.m; path = Tests/TFImageDownloadTestCase.m; sourceTree = "<group>"; };
+		747E516C1A78EAA7000BD6CB /* MMStopwatchARC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MMStopwatchARC.h; sourceTree = "<group>"; };
+		747E516D1A78EAA7000BD6CB /* MMStopwatchARC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MMStopwatchARC.m; sourceTree = "<group>"; };
 		D0854E63E81747B5958CF456 /* Pods-VSTests.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VSTests.xcconfig"; path = "Pods/Pods-VSTests.xcconfig"; sourceTree = "<group>"; };
 		ED7C1AD6041448D3A1775759 /* libPods-VSTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-VSTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -115,20 +115,18 @@
 		742DDB181A78DFE9006F8A65 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
-				742DDB191A78DFE9006F8A65 /* MMStopwatchARC.h */,
-				742DDB1A1A78DFE9006F8A65 /* MMStopwatchARC.m */,
-				742DDB1B1A78DFE9006F8A65 /* TFAppDelegate.h */,
-				742DDB1C1A78DFE9006F8A65 /* TFAppDelegate.m */,
-				742DDB1D1A78DFE9006F8A65 /* TFDetailViewController.h */,
-				742DDB1E1A78DFE9006F8A65 /* TFDetailViewController.m */,
-				742DDB1F1A78DFE9006F8A65 /* TFElapsedSpeedTestCase.h */,
-				742DDB201A78DFE9006F8A65 /* TFElapsedSpeedTestCase.m */,
-				742DDB211A78DFE9006F8A65 /* TFMasterViewController.h */,
-				742DDB221A78DFE9006F8A65 /* TFMasterViewController.m */,
+				742DDB1B1A78DFE9006F8A65 /* VSAppDelegate.h */,
+				742DDB1C1A78DFE9006F8A65 /* VSAppDelegate.m */,
+				742DDB1D1A78DFE9006F8A65 /* VSDetailViewController.h */,
+				742DDB1E1A78DFE9006F8A65 /* VSDetailViewController.m */,
+				742DDB1F1A78DFE9006F8A65 /* VSElapsedSpeedTestCase.h */,
+				742DDB201A78DFE9006F8A65 /* VSElapsedSpeedTestCase.m */,
+				742DDB211A78DFE9006F8A65 /* VSMasterViewController.h */,
+				742DDB221A78DFE9006F8A65 /* VSMasterViewController.m */,
 				742DDB231A78DFE9006F8A65 /* VSTestContext.h */,
 				742DDB241A78DFE9006F8A65 /* VSTestContext.m */,
-				742DDB251A78DFE9006F8A65 /* TFTestResult.h */,
-				742DDB261A78DFE9006F8A65 /* TFTestResult.m */,
+				742DDB251A78DFE9006F8A65 /* VSTestResult.h */,
+				742DDB261A78DFE9006F8A65 /* VSTestResult.m */,
 				742DDB271A78DFE9006F8A65 /* VSTestCase.h */,
 				742DDB281A78DFE9006F8A65 /* VSTestCase.m */,
 			);
@@ -171,9 +169,9 @@
 		74397E0119C1F69200D37966 /* VSTests */ = {
 			isa = PBXGroup;
 			children = (
+				747E516A1A78EAA7000BD6CB /* Libraries */,
 				742DDB181A78DFE9006F8A65 /* Classes */,
 				1AE692C319C2CE6800377477 /* Tests */,
-				74397E3319C1F96200D37966 /* Cells */,
 				74397E1619C1F69200D37966 /* Images.xcassets */,
 				74397E0219C1F69200D37966 /* Supporting Files */,
 				74397E4A19C30E1800D37966 /* Utilities.h */,
@@ -210,11 +208,21 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		74397E3319C1F96200D37966 /* Cells */ = {
+		747E516A1A78EAA7000BD6CB /* Libraries */ = {
 			isa = PBXGroup;
 			children = (
+				747E516B1A78EAA7000BD6CB /* MMStopWatch */,
 			);
-			name = Cells;
+			path = Libraries;
+			sourceTree = "<group>";
+		};
+		747E516B1A78EAA7000BD6CB /* MMStopWatch */ = {
+			isa = PBXGroup;
+			children = (
+				747E516C1A78EAA7000BD6CB /* MMStopwatchARC.h */,
+				747E516D1A78EAA7000BD6CB /* MMStopwatchARC.m */,
+			);
+			path = MMStopWatch;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -354,13 +362,13 @@
 			files = (
 				742DDB321A78DFE9006F8A65 /* VSTestCase.m in Sources */,
 				742DDB301A78DFE9006F8A65 /* VSTestContext.m in Sources */,
-				742DDB2F1A78DFE9006F8A65 /* TFMasterViewController.m in Sources */,
-				742DDB2C1A78DFE9006F8A65 /* TFAppDelegate.m in Sources */,
-				742DDB2E1A78DFE9006F8A65 /* TFElapsedSpeedTestCase.m in Sources */,
-				742DDB2B1A78DFE9006F8A65 /* MMStopwatchARC.m in Sources */,
+				747E516E1A78EAA7000BD6CB /* MMStopwatchARC.m in Sources */,
+				742DDB2F1A78DFE9006F8A65 /* VSMasterViewController.m in Sources */,
+				742DDB2C1A78DFE9006F8A65 /* VSAppDelegate.m in Sources */,
+				742DDB2E1A78DFE9006F8A65 /* VSElapsedSpeedTestCase.m in Sources */,
 				74397E4B19C30E1800D37966 /* Utilities.h in Sources */,
-				742DDB311A78DFE9006F8A65 /* TFTestResult.m in Sources */,
-				742DDB2D1A78DFE9006F8A65 /* TFDetailViewController.m in Sources */,
+				742DDB311A78DFE9006F8A65 /* VSTestResult.m in Sources */,
+				742DDB2D1A78DFE9006F8A65 /* VSDetailViewController.m in Sources */,
 				7447E7F31A0A802100BD264D /* TFImageDownloadTestCase.m in Sources */,
 				74397E0819C1F69200D37966 /* main.m in Sources */,
 			);

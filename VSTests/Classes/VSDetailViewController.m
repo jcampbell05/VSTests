@@ -1,15 +1,15 @@
 //
-//  TFDetailViewController.m
+//  VSDetailViewController.m
 //  VSTests
 //
 //  Created by James Campbell on 11/09/2014.
 //  Copyright (c) 2014 James Campbell. All rights reserved.
 //
 
-#import "TFDetailViewController.h"
+#import "VSDetailViewController.h"
 #import <CorePlot/CorePlot-CocoaTouch.h>
 
-@interface TFDetailViewController () <CPTPlotDataSource>
+@interface VSDetailViewController () <CPTPlotDataSource>
 
 @property (nonatomic, strong) CPTGraphHostingView *hostView;
 @property (nonatomic, strong) CPTXYGraph *graph;
@@ -22,7 +22,7 @@
 
 @end
 
-@implementation TFDetailViewController
+@implementation VSDetailViewController
 
 #pragma mark - Managing the detail item
 
@@ -35,7 +35,7 @@
 }
 
 
-- (void)setTestResult:(TFTestResult *)testResult
+- (void)setTestResult:(VSTestResult *)testResult
 {
     _testResult = testResult;
     

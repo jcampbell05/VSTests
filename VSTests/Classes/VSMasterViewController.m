@@ -1,18 +1,18 @@
 //
-//  TFMasterViewController.m
+//  VSMasterViewController.m
 //  VSTests
 //
 //  Created by James Campbell on 11/09/2014.
 //  Copyright (c) 2014 James Campbell. All rights reserved.
 //
 
-#import "TFMasterViewController.h"
-#import "TFDetailViewController.h"
+#import "VSMasterViewController.h"
+#import "VSDetailViewController.h"
 #import "VSTestCase.h"
-#import "TFElapsedSpeedTestCase.h"
-#import "TFTestResult.h"
+#import "VSElapsedSpeedTestCase.h"
+#import "VSTestResult.h"
 
-@interface TFMasterViewController ()
+@interface VSMasterViewController ()
 
 @property (nonatomic, strong) NSArray *tests;
 
@@ -20,7 +20,7 @@
 
 @end
 
-@implementation TFMasterViewController
+@implementation VSMasterViewController
 
 - (void)awakeFromNib
 {
@@ -43,7 +43,7 @@
 - (void)loadTests
 {
     NSArray *testSubclasses = ClassGetSubclasses([VSTestCase class]);
-    NSArray *concreteSubclasses = @[[TFElapsedSpeedTestCase class]];
+    NSArray *concreteSubclasses = @[[VSElapsedSpeedTestCase class]];
     
     NSPredicate *predicate = [NSPredicate predicateWithBlock:^BOOL(id evaluatedObject, NSDictionary *bindings)
     {

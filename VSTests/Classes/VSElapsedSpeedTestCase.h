@@ -1,5 +1,5 @@
 //
-//  TFElaspedSpeedTest.h
+//  VSElaspedSpeedTest.h
 //  VSTests
 //
 //  Created by James Campbell on 12/09/2014.
@@ -9,6 +9,6 @@
 
 #import "VSTestCase.h"
 
-@interface TFElapsedSpeedTestCase : VSTestCase
+@interface VSElapsedSpeedTestCase : VSTestCase
 
 @end

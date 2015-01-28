@@ -6,8 +6,8 @@
 //  Copyright (c) 2014 James Campbell. All rights reserved.
 //
 
-#import "TFElapsedSpeedTestCase.h"
+#import "VSElapsedSpeedTestCase.h"
 
-@interface TFImageBlurTestCase : TFElapsedSpeedTestCase
+@interface TFImageBlurTestCase : VSElapsedSpeedTestCase
 
 @end

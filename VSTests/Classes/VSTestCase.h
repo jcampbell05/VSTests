@@ -8,7 +8,7 @@
 
 #import <Foundation/Foundation.h>
 #import "VSTestContext.h"
-#import "TFTestResult.h"
+#import "VSTestResult.h"
 
 #define VSFail(...) NSAssert(false, __VA_ARGS__)
 
@@ -35,7 +35,7 @@ typedef void(^TFTestDoneBlock)(void);
 @property (nonatomic, strong, readonly) VSTestContext *context;
 @property (nonatomic, strong, readonly) NSString *title;
 @property (nonatomic, strong, readonly) NSProgress *progress;
-@property (nonatomic, strong, readonly) TFTestResult *result;
+@property (nonatomic, strong, readonly) VSTestResult *result;
 
 + (instancetype)test;
 

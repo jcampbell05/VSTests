@@ -1,5 +1,5 @@
 //
-//  TFTestResultSource.h
+//  VSTestResult.h
 //  VSTests
 //
 //  Created by James Campbell on 11/09/2014.
@@ -10,7 +10,7 @@
 
 @class TFTestResultDataPoint;
 
-@interface TFTestResult : NSObject
+@interface VSTestResult : NSObject
 
 @property (nonatomic, strong) NSString *name;
 @property (nonatomic, strong) NSMutableDictionary *plots;

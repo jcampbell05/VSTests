@@ -1,25 +1,25 @@
 //
-//  TFAppDelegate.m
+//  VSAppDelegate.m
 //  VSTests
 //
 //  Created by James Campbell on 11/09/2014.
 //  Copyright (c) 2014 James Campbell. All rights reserved.
 //
 
-#import "TFAppDelegate.h"
-#import "TFMasterViewController.h"
-#import "TFDetailViewController.h"
+#import "VSAppDelegate.h"
+#import "VSMasterViewController.h"
+#import "VSDetailViewController.h"
 
-@interface TFAppDelegate () <UISplitViewControllerDelegate>
+@interface VSAppDelegate () <UISplitViewControllerDelegate>
 
-@property (nonatomic, strong) TFMasterViewController *masterViewController;
+@property (nonatomic, strong) VSMasterViewController *masterViewController;
 @property (nonatomic, strong) UINavigationController *masterNavigationViewController;
-@property (nonatomic, strong) TFDetailViewController *detailViewController;
+@property (nonatomic, strong) VSDetailViewController *detailViewController;
 @property (nonatomic, strong) UINavigationController *detailNavigationViewController;
 
 @end
 
-@implementation TFAppDelegate
+@implementation VSAppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
@@ -59,11 +59,11 @@
     return _masterNavigationViewController;
 }
 
-- (TFMasterViewController *)masterViewController
+- (VSMasterViewController *)masterViewController
 {
     if (!_masterViewController)
     {
-        _masterViewController = [[TFMasterViewController alloc] init];
+        _masterViewController = [[VSMasterViewController alloc] init];
         _masterViewController.detailViewController = self.detailViewController;
     }
     
@@ -80,11 +80,11 @@
     return _detailNavigationViewController;
 }
 
-- (TFDetailViewController *)detailViewController
+- (VSDetailViewController *)detailViewController
 {
     if (!_detailViewController)
     {
-        _detailViewController = [[TFDetailViewController alloc] init];
+        _detailViewController = [[VSDetailViewController alloc] init];
     }
     
     return _detailViewController;
