@@ -35,23 +35,23 @@
     return self.timeResultSource;
 }
 
-- (void)setUp:(TFTestContext *)context
+- (void)setUp
 {
-    [super setUp:context];
+    [super setUp];
     
-    self.stopwatch = [MMStopwatchItemARC itemWithName:context.subjectName];
+    self.stopwatch = [MMStopwatchItemARC itemWithName:self.context.subjectName];
 }
 
-- (void)tearDown:(TFTestContext *)context
+- (void)tearDown
 {
-    [super tearDown:context];
-    
-    NSAssert(self.stopwatch, @"No stopwatch created, please check all of your tests call [super setUp: context].");
+    [super tearDown];
+
+    NSAssert(self.stopwatch, @"No stopwatch created, please check all of your tests call [super setUp].");
     [self.stopwatch stop];
     
     NSLog(@"Completed Test: %@", self.stopwatch.description);
-    [self.timeResultSource addPoint:CGPointMake(context.iteration, self.stopwatch.runtimeMills / 1000)
-                         forSubject:context.subjectName];
+    [self.timeResultSource addPoint:CGPointMake(self.context.iteration, self.stopwatch.runtimeMills / 1000)
+                         forSubject:self.context.subjectName];
 }
 
 @end

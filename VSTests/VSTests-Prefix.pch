@@ -18,5 +18,8 @@
 
 #import <UIKit/UIKit.h>
 #import <Foundation/Foundation.h>
+#import "VSTestCase.h"
+#import "VSTestContext.h"
+#import "Utilities.h"
 
 #endif

@@ -11,7 +11,6 @@
 #import "VSTestCase.h"
 #import "TFElapsedSpeedTestCase.h"
 #import "TFTestResult.h"
-#import "Utilities.m"
 
 @interface TFMasterViewController ()
 

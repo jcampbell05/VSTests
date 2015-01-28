@@ -1,5 +1,5 @@
 //
-//  TFTestContext.h
+//  VSTestContext.h
 //  VSTests
 //
 //  Created by James Campbell on 12/09/2014.
@@ -8,7 +8,7 @@
 
 #import <Foundation/Foundation.h>
 
-@interface TFTestContext : NSObject
+@interface VSTestContext : NSObject
 
 @property (nonatomic, strong) NSString *subjectName;
 @property (nonatomic, assign) NSInteger iteration;

@@ -1,5 +1,5 @@
 //
-//  Utilities.c
+//  Utilities.h
 //  VSTests
 //
 //  Created by James Campbell on 12/09/2014.

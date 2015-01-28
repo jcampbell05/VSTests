@@ -16,9 +16,9 @@
 
 @implementation TFImageBlurTestCase
 
-- (void)setUp:(TFTestContext *)context
+- (void)setUp:(VSTestContext *)context
 {
-    [super setUp:context];
+    [super setUp];
     
     self.imageView = [[UIImageView alloc] init];
 }

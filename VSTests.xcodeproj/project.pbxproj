@@ -7,26 +7,26 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		1AB7B14B19C2D31F004F958D /* TFTestContext.m in Sources */ = {isa = PBXBuildFile; fileRef = 1AB7B14A19C2D31F004F958D /* TFTestContext.m */; };
+		742DDB2B1A78DFE9006F8A65 /* MMStopwatchARC.m in Sources */ = {isa = PBXBuildFile; fileRef = 742DDB1A1A78DFE9006F8A65 /* MMStopwatchARC.m */; };
+		742DDB2C1A78DFE9006F8A65 /* TFAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 742DDB1C1A78DFE9006F8A65 /* TFAppDelegate.m */; };
+		742DDB2D1A78DFE9006F8A65 /* TFDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 742DDB1E1A78DFE9006F8A65 /* TFDetailViewController.m */; };
+		742DDB2E1A78DFE9006F8A65 /* TFElapsedSpeedTestCase.m in Sources */ = {isa = PBXBuildFile; fileRef = 742DDB201A78DFE9006F8A65 /* TFElapsedSpeedTestCase.m */; };
+		742DDB2F1A78DFE9006F8A65 /* TFMasterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 742DDB221A78DFE9006F8A65 /* TFMasterViewController.m */; };
+		742DDB301A78DFE9006F8A65 /* VSTestContext.m in Sources */ = {isa = PBXBuildFile; fileRef = 742DDB241A78DFE9006F8A65 /* VSTestContext.m */; };
+		742DDB311A78DFE9006F8A65 /* TFTestResult.m in Sources */ = {isa = PBXBuildFile; fileRef = 742DDB261A78DFE9006F8A65 /* TFTestResult.m */; };
+		742DDB321A78DFE9006F8A65 /* VSTestCase.m in Sources */ = {isa = PBXBuildFile; fileRef = 742DDB281A78DFE9006F8A65 /* VSTestCase.m */; };
 		74397DFC19C1F69200D37966 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 74397DFB19C1F69200D37966 /* Foundation.framework */; };
 		74397DFE19C1F69200D37966 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 74397DFD19C1F69200D37966 /* CoreGraphics.framework */; };
 		74397E0019C1F69200D37966 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 74397DFF19C1F69200D37966 /* UIKit.framework */; };
 		74397E0619C1F69200D37966 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 74397E0419C1F69200D37966 /* InfoPlist.strings */; };
 		74397E0819C1F69200D37966 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 74397E0719C1F69200D37966 /* main.m */; };
-		74397E0C19C1F69200D37966 /* TFAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 74397E0B19C1F69200D37966 /* TFAppDelegate.m */; };
-		74397E1219C1F69200D37966 /* TFMasterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 74397E1119C1F69200D37966 /* TFMasterViewController.m */; };
-		74397E1519C1F69200D37966 /* TFDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 74397E1419C1F69200D37966 /* TFDetailViewController.m */; };
 		74397E1719C1F69200D37966 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 74397E1619C1F69200D37966 /* Images.xcassets */; };
 		74397E1F19C1F69200D37966 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 74397DFB19C1F69200D37966 /* Foundation.framework */; };
 		74397E2019C1F69200D37966 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 74397DFF19C1F69200D37966 /* UIKit.framework */; };
 		74397E2819C1F69200D37966 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 74397E2619C1F69200D37966 /* InfoPlist.strings */; };
 		74397E2A19C1F69200D37966 /* VSTestsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 74397E2919C1F69200D37966 /* VSTestsTests.m */; };
-		74397E3919C1FFEF00D37966 /* VSTestCase.m in Sources */ = {isa = PBXBuildFile; fileRef = 74397E3819C1FFEF00D37966 /* VSTestCase.m */; };
-		74397E3F19C205DE00D37966 /* TFTestResult.m in Sources */ = {isa = PBXBuildFile; fileRef = 74397E3E19C205DE00D37966 /* TFTestResult.m */; };
-		74397E4B19C30E1800D37966 /* Utilities.m in Sources */ = {isa = PBXBuildFile; fileRef = 74397E4A19C30E1800D37966 /* Utilities.m */; };
+		74397E4B19C30E1800D37966 /* Utilities.h in Sources */ = {isa = PBXBuildFile; fileRef = 74397E4A19C30E1800D37966 /* Utilities.h */; };
 		7447E7F31A0A802100BD264D /* TFImageDownloadTestCase.m in Sources */ = {isa = PBXBuildFile; fileRef = 7447E7F21A0A802100BD264D /* TFImageDownloadTestCase.m */; };
-		7447E7F61A0A965C00BD264D /* TFElapsedSpeedTestCase.m in Sources */ = {isa = PBXBuildFile; fileRef = 7447E7F51A0A965C00BD264D /* TFElapsedSpeedTestCase.m */; };
-		74D06E761A0BD79300529F19 /* MMStopwatchARC.m in Sources */ = {isa = PBXBuildFile; fileRef = 74D06E751A0BD79300529F19 /* MMStopwatchARC.m */; };
 		F1A76E5FC1F646E0ACA0A8A6 /* libPods-VSTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = ED7C1AD6041448D3A1775759 /* libPods-VSTests.a */; };
 /* End PBXBuildFile section */
 
@@ -41,9 +41,23 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		1AB7B14919C2D31F004F958D /* TFTestContext.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TFTestContext.h; sourceTree = "<group>"; };
-		1AB7B14A19C2D31F004F958D /* TFTestContext.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TFTestContext.m; sourceTree = "<group>"; };
 		742DDB161A78DBF0006F8A65 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		742DDB191A78DFE9006F8A65 /* MMStopwatchARC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MMStopwatchARC.h; sourceTree = "<group>"; };
+		742DDB1A1A78DFE9006F8A65 /* MMStopwatchARC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MMStopwatchARC.m; sourceTree = "<group>"; };
+		742DDB1B1A78DFE9006F8A65 /* TFAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TFAppDelegate.h; sourceTree = "<group>"; };
+		742DDB1C1A78DFE9006F8A65 /* TFAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TFAppDelegate.m; sourceTree = "<group>"; };
+		742DDB1D1A78DFE9006F8A65 /* TFDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TFDetailViewController.h; sourceTree = "<group>"; };
+		742DDB1E1A78DFE9006F8A65 /* TFDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TFDetailViewController.m; sourceTree = "<group>"; };
+		742DDB1F1A78DFE9006F8A65 /* TFElapsedSpeedTestCase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TFElapsedSpeedTestCase.h; sourceTree = "<group>"; };
+		742DDB201A78DFE9006F8A65 /* TFElapsedSpeedTestCase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TFElapsedSpeedTestCase.m; sourceTree = "<group>"; };
+		742DDB211A78DFE9006F8A65 /* TFMasterViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TFMasterViewController.h; sourceTree = "<group>"; };
+		742DDB221A78DFE9006F8A65 /* TFMasterViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TFMasterViewController.m; sourceTree = "<group>"; };
+		742DDB231A78DFE9006F8A65 /* VSTestContext.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VSTestContext.h; sourceTree = "<group>"; };
+		742DDB241A78DFE9006F8A65 /* VSTestContext.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VSTestContext.m; sourceTree = "<group>"; };
+		742DDB251A78DFE9006F8A65 /* TFTestResult.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TFTestResult.h; sourceTree = "<group>"; };
+		742DDB261A78DFE9006F8A65 /* TFTestResult.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TFTestResult.m; sourceTree = "<group>"; };
+		742DDB271A78DFE9006F8A65 /* VSTestCase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VSTestCase.h; sourceTree = "<group>"; };
+		742DDB281A78DFE9006F8A65 /* VSTestCase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VSTestCase.m; sourceTree = "<group>"; };
 		74397DF819C1F69200D37966 /* VSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VSTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		74397DFB19C1F69200D37966 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		74397DFD19C1F69200D37966 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -52,29 +66,15 @@
 		74397E0519C1F69200D37966 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		74397E0719C1F69200D37966 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		74397E0919C1F69200D37966 /* VSTests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "VSTests-Prefix.pch"; sourceTree = "<group>"; };
-		74397E0A19C1F69200D37966 /* TFAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TFAppDelegate.h; sourceTree = "<group>"; };
-		74397E0B19C1F69200D37966 /* TFAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TFAppDelegate.m; sourceTree = "<group>"; };
-		74397E1019C1F69200D37966 /* TFMasterViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TFMasterViewController.h; sourceTree = "<group>"; };
-		74397E1119C1F69200D37966 /* TFMasterViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TFMasterViewController.m; sourceTree = "<group>"; };
-		74397E1319C1F69200D37966 /* TFDetailViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TFDetailViewController.h; sourceTree = "<group>"; };
-		74397E1419C1F69200D37966 /* TFDetailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TFDetailViewController.m; sourceTree = "<group>"; };
 		74397E1619C1F69200D37966 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		74397E1C19C1F69200D37966 /* VSTestsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VSTestsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		74397E1D19C1F69200D37966 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		74397E2519C1F69200D37966 /* VSTestsTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "VSTestsTests-Info.plist"; sourceTree = "<group>"; };
 		74397E2719C1F69200D37966 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		74397E2919C1F69200D37966 /* VSTestsTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VSTestsTests.m; sourceTree = "<group>"; };
-		74397E3719C1FFEF00D37966 /* VSTestCase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VSTestCase.h; sourceTree = "<group>"; };
-		74397E3819C1FFEF00D37966 /* VSTestCase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VSTestCase.m; sourceTree = "<group>"; };
-		74397E3D19C205DE00D37966 /* TFTestResult.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TFTestResult.h; sourceTree = "<group>"; };
-		74397E3E19C205DE00D37966 /* TFTestResult.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TFTestResult.m; sourceTree = "<group>"; };
-		74397E4A19C30E1800D37966 /* Utilities.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Utilities.m; sourceTree = "<group>"; };
+		74397E4A19C30E1800D37966 /* Utilities.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Utilities.h; sourceTree = "<group>"; };
 		7447E7F11A0A802100BD264D /* TFImageBlurTestCase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TFImageBlurTestCase.h; path = Tests/TFImageBlurTestCase.h; sourceTree = "<group>"; };
 		7447E7F21A0A802100BD264D /* TFImageDownloadTestCase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TFImageDownloadTestCase.m; path = Tests/TFImageDownloadTestCase.m; sourceTree = "<group>"; };
-		7447E7F41A0A965C00BD264D /* TFElapsedSpeedTestCase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TFElapsedSpeedTestCase.h; sourceTree = "<group>"; };
-		7447E7F51A0A965C00BD264D /* TFElapsedSpeedTestCase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TFElapsedSpeedTestCase.m; sourceTree = "<group>"; };
-		74D06E741A0BD79300529F19 /* MMStopwatchARC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MMStopwatchARC.h; sourceTree = "<group>"; };
-		74D06E751A0BD79300529F19 /* MMStopwatchARC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MMStopwatchARC.m; sourceTree = "<group>"; };
 		D0854E63E81747B5958CF456 /* Pods-VSTests.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VSTests.xcconfig"; path = "Pods/Pods-VSTests.xcconfig"; sourceTree = "<group>"; };
 		ED7C1AD6041448D3A1775759 /* libPods-VSTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-VSTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -110,6 +110,29 @@
 				7447E7F21A0A802100BD264D /* TFImageDownloadTestCase.m */,
 			);
 			name = Tests;
+			sourceTree = "<group>";
+		};
+		742DDB181A78DFE9006F8A65 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				742DDB191A78DFE9006F8A65 /* MMStopwatchARC.h */,
+				742DDB1A1A78DFE9006F8A65 /* MMStopwatchARC.m */,
+				742DDB1B1A78DFE9006F8A65 /* TFAppDelegate.h */,
+				742DDB1C1A78DFE9006F8A65 /* TFAppDelegate.m */,
+				742DDB1D1A78DFE9006F8A65 /* TFDetailViewController.h */,
+				742DDB1E1A78DFE9006F8A65 /* TFDetailViewController.m */,
+				742DDB1F1A78DFE9006F8A65 /* TFElapsedSpeedTestCase.h */,
+				742DDB201A78DFE9006F8A65 /* TFElapsedSpeedTestCase.m */,
+				742DDB211A78DFE9006F8A65 /* TFMasterViewController.h */,
+				742DDB221A78DFE9006F8A65 /* TFMasterViewController.m */,
+				742DDB231A78DFE9006F8A65 /* VSTestContext.h */,
+				742DDB241A78DFE9006F8A65 /* VSTestContext.m */,
+				742DDB251A78DFE9006F8A65 /* TFTestResult.h */,
+				742DDB261A78DFE9006F8A65 /* TFTestResult.m */,
+				742DDB271A78DFE9006F8A65 /* VSTestCase.h */,
+				742DDB281A78DFE9006F8A65 /* VSTestCase.m */,
+			);
+			path = Classes;
 			sourceTree = "<group>";
 		};
 		74397DEF19C1F69200D37966 = {
@@ -148,27 +171,12 @@
 		74397E0119C1F69200D37966 /* VSTests */ = {
 			isa = PBXGroup;
 			children = (
-				7447E7F41A0A965C00BD264D /* TFElapsedSpeedTestCase.h */,
-				7447E7F51A0A965C00BD264D /* TFElapsedSpeedTestCase.m */,
+				742DDB181A78DFE9006F8A65 /* Classes */,
 				1AE692C319C2CE6800377477 /* Tests */,
 				74397E3319C1F96200D37966 /* Cells */,
-				74397E0A19C1F69200D37966 /* TFAppDelegate.h */,
-				74397E0B19C1F69200D37966 /* TFAppDelegate.m */,
-				74397E1019C1F69200D37966 /* TFMasterViewController.h */,
-				74397E1119C1F69200D37966 /* TFMasterViewController.m */,
-				74D06E741A0BD79300529F19 /* MMStopwatchARC.h */,
-				74D06E751A0BD79300529F19 /* MMStopwatchARC.m */,
-				74397E1319C1F69200D37966 /* TFDetailViewController.h */,
-				74397E1419C1F69200D37966 /* TFDetailViewController.m */,
 				74397E1619C1F69200D37966 /* Images.xcassets */,
 				74397E0219C1F69200D37966 /* Supporting Files */,
-				74397E3719C1FFEF00D37966 /* VSTestCase.h */,
-				74397E3819C1FFEF00D37966 /* VSTestCase.m */,
-				74397E3D19C205DE00D37966 /* TFTestResult.h */,
-				74397E3E19C205DE00D37966 /* TFTestResult.m */,
-				1AB7B14919C2D31F004F958D /* TFTestContext.h */,
-				1AB7B14A19C2D31F004F958D /* TFTestContext.m */,
-				74397E4A19C30E1800D37966 /* Utilities.m */,
+				74397E4A19C30E1800D37966 /* Utilities.h */,
 			);
 			path = VSTests;
 			sourceTree = "<group>";
@@ -344,17 +352,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7447E7F61A0A965C00BD264D /* TFElapsedSpeedTestCase.m in Sources */,
-				74397E4B19C30E1800D37966 /* Utilities.m in Sources */,
-				74D06E761A0BD79300529F19 /* MMStopwatchARC.m in Sources */,
-				74397E1219C1F69200D37966 /* TFMasterViewController.m in Sources */,
-				74397E3F19C205DE00D37966 /* TFTestResult.m in Sources */,
-				74397E3919C1FFEF00D37966 /* VSTestCase.m in Sources */,
+				742DDB321A78DFE9006F8A65 /* VSTestCase.m in Sources */,
+				742DDB301A78DFE9006F8A65 /* VSTestContext.m in Sources */,
+				742DDB2F1A78DFE9006F8A65 /* TFMasterViewController.m in Sources */,
+				742DDB2C1A78DFE9006F8A65 /* TFAppDelegate.m in Sources */,
+				742DDB2E1A78DFE9006F8A65 /* TFElapsedSpeedTestCase.m in Sources */,
+				742DDB2B1A78DFE9006F8A65 /* MMStopwatchARC.m in Sources */,
+				74397E4B19C30E1800D37966 /* Utilities.h in Sources */,
+				742DDB311A78DFE9006F8A65 /* TFTestResult.m in Sources */,
+				742DDB2D1A78DFE9006F8A65 /* TFDetailViewController.m in Sources */,
 				7447E7F31A0A802100BD264D /* TFImageDownloadTestCase.m in Sources */,
-				74397E0C19C1F69200D37966 /* TFAppDelegate.m in Sources */,
-				1AB7B14B19C2D31F004F958D /* TFTestContext.m in Sources */,
 				74397E0819C1F69200D37966 /* main.m in Sources */,
-				74397E1519C1F69200D37966 /* TFDetailViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -477,7 +485,6 @@
 				CODE_SIGN_IDENTITY = "";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
-					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
 					"$(DEVELOPER_FRAMEWORKS_DIR)",
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
@@ -497,8 +504,6 @@
 					Security,
 					"-framework",
 					SystemConfiguration,
-					"-framework",
-					XCTest,
 				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
@@ -515,7 +520,6 @@
 				CODE_SIGN_IDENTITY = "";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
-					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
 					"$(DEVELOPER_FRAMEWORKS_DIR)",
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
@@ -535,8 +539,6 @@
 					Security,
 					"-framework",
 					SystemConfiguration,
-					"-framework",
-					XCTest,
 				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
